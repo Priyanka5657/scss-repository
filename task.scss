@@ -1,0 +1,21 @@
+@mixin demo{
+    color: navy;
+    background-color: yellow;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+}
+.page2{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    
+}
+.page3{
+    @include demo;
+}
